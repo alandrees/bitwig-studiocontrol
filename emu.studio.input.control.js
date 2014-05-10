@@ -10,22 +10,47 @@ loadAPI(1);
 host.defineController("loridcon", "E-MU Studio Input", "1.0", "47b00be8-0c15-48f5-945a-64a0b7f8ac7d");
 host.defineMidiPorts(1, 0);
 
-function init()
-{
+/**\fn init
+ * 
+ * Initalizes the script.
+ *
+ * @param None
+ *
+ * @returns None
+ */
+
+function init(){
+
+   //axiom 49
    host.getMidiInPort(0).createNoteInput("Axiom 49", 
 					 "?0????");
 
-   host.getMidiInPort(0).createNoteInput("Axiom 25", 
+   //axiom 25-A
+   host.getMidiInPort(0).createNoteInput("Axiom 25-A", 
 					 "?1????");
 
-   host.getMidiInPort(0).createNoteInput("Casio CTK",  
+   //axiom 25-B
+   host.getMidiInPort(0).createNoteInput("Axiom 25-B", 
 					 "?2????");
 
+   //Casio CTK
+   host.getMidiInPort(0).createNoteInput("Casio CTK",  
+					 "?3????");
+
+   //ROLAND TDK Drum Kit
    host.getMidiInPort(0).createNoteInput("Roland TD4", 
 					 "?9????");
 
 }
 
-function exit()
-{
+/**\fn exit
+ * 
+ * Exit functions.  Clean up.
+ *
+ * @param None
+ *
+ * @returns None
+ */
+
+function exit(){
 }
