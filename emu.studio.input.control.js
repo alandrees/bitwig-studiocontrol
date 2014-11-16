@@ -33,10 +33,6 @@ function init(){
    host.getMidiInPort(0).createNoteInput("Axiom 25-B", 
 					 "?2????");
 
-   //Casio CTK
-   host.getMidiInPort(0).createNoteInput("Casio CTK",  
-					 "?3????");
-
    //ROLAND TDK Drum Kit
    host.getMidiInPort(0).createNoteInput("Roland TD4", 
 					 "?9????");
