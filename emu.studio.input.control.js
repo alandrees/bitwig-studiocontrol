@@ -1,6 +1,6 @@
 /**
  * Copyright 2014 Alan Drees
- *   
+ *
  * Purpose:
  *  Defines controller script input to separate the MIDI channels used in the studio
  */
@@ -40,11 +40,10 @@ function init(){
    //ROLAND TDK Drum Kit
    host.getMidiInPort(0).createNoteInput("Roland TD4", 
 					 "?9????");
-
 }
 
 /**\fn exit
- * 
+ *
  * Exit functions.  Clean up.
  *
  * @param None
