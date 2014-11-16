@@ -34,7 +34,7 @@ function init(){
 					 "?2????");
 
    //ROLAND TDK Drum Kit
-   host.getMidiInPort(0).createNoteInput("Roland TD4", 
+   host.getMidiInPort(0).createNoteInput("Roland TD4",
 					 "?9????");
 }
 
