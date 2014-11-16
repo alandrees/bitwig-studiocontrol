@@ -21,8 +21,8 @@ host.defineMidiPorts(1, 0);
 
 function init(){
 
-   //axiom 49
-   host.getMidiInPort(0).createNoteInput("Axiom 49", 
+   //axiom 49 v1
+   host.getMidiInPort(0).createNoteInput("Axiom 49 v1",
 					 "?0????");
 
    //axiom 25-A
