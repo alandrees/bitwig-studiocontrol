@@ -30,9 +30,10 @@ function init()
 
     var prefs = host.getPreferences();
 
-   //axiom 49 v2
-   host.getMidiInPort(0).createNoteInput("Axiom 49 v2",
-					 "?1????");
+    c1 = prefs.getNumberSetting("Axiom 49 v1", "Channel", 1, 16, 1, "", c1 + 1);
+    c2 = prefs.getNumberSetting("Axiom 49 v2", "Channel", 1, 16, 1, "", c2 + 1);
+    c3 = prefs.getNumberSetting("Axiom 25",    "Channel", 1, 16, 1, "", c3 + 1);
+    c4 = prefs.getNumberSetting("Roland TD4",  "Channel", 1, 16, 1, "", c4 + 1);
 
    //axiom 25
    host.getMidiInPort(0).createNoteInput("Axiom 25",
