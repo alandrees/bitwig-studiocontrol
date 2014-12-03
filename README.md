@@ -5,13 +5,14 @@ Script to expose each of the different MIDI controllers I have as inputs in Bitw
 
 The Devices are:
 
-Axiom 49
+Axiom 49 v1
 
-Axiom 25-A
+Axiom 49 v2
 
-Axiom 25-B
+Axiom 25
 
-Casio CTK
+Roland TD-4
 
-Roland TD-4 (E-Drums)
+The API versions are tagged at the last commit that was compatable with the version.
 
+So the most updated, version 1 code would be apiv1 tag.
