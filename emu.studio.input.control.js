@@ -20,7 +20,13 @@ host.defineMidiPorts(1, 0);
  * @returns None
  */
 
-function init(){
+function init()
+{
+    var c1, c2, c3, c4;
+    c1 = 0;
+    c2 = 1;
+    c3 = 2;
+    c4 = 9;
 
    //axiom 49 v1
    host.getMidiInPort(0).createNoteInput("Axiom 49 v1",
