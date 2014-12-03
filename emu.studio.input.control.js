@@ -10,8 +10,9 @@ loadAPI(1);
 host.defineController("Stealthascope", "E-MU Studio Input", "1.0", "47b00be8-0c15-48f5-945a-64a0b7f8ac7d");
 host.defineMidiPorts(1, 0);
 
+
 /**\fn init
- * 
+ *
  * Initalizes the script.
  *
  * @param None
