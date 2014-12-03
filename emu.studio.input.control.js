@@ -35,9 +35,9 @@ function init()
     c3 = prefs.getNumberSetting("Axiom 25",    "Channel", 1, 16, 1, "", c3 + 1);
     c4 = prefs.getNumberSetting("Roland TD4",  "Channel", 1, 16, 1, "", c4 + 1);
 
-   //axiom 25
-   host.getMidiInPort(0).createNoteInput("Axiom 25",
-					 "?2????");
+    //axiom 49 v1
+    host.getMidiInPort(0).createNoteInput("Axiom 49 v1",
+					  "?"+(c1 - 1)+"????");
 
    //ROLAND TDK Drum Kit
    host.getMidiInPort(0).createNoteInput("Roland TD4",
