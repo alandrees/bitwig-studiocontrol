@@ -28,9 +28,7 @@ function init()
     c3 = 2;
     c4 = 9;
 
-   //axiom 49 v1
-   host.getMidiInPort(0).createNoteInput("Axiom 49 v1",
-					 "?0????");
+    var prefs = host.getPreferences();
 
    //axiom 49 v2
    host.getMidiInPort(0).createNoteInput("Axiom 49 v2",
