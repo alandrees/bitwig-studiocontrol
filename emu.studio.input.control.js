@@ -39,9 +39,17 @@ function init()
     host.getMidiInPort(0).createNoteInput("Axiom 49 v1",
 					  "?"+(c1 - 1)+"????");
 
-   //ROLAND TDK Drum Kit
-   host.getMidiInPort(0).createNoteInput("Roland TD4",
-					 "?9????");
+    //axiom 49 v2
+    host.getMidiInPort(0).createNoteInput("Axiom 49 v2",
+					  "?"+(c2 - 1)+"????");
+
+    //axiom 25
+    host.getMidiInPort(0).createNoteInput("Axiom 25",
+					  "?"+(c3 - 1)+"????");
+
+    //ROLAND TDK Drum Kit
+    host.getMidiInPort(0).createNoteInput("Roland TD4",
+					  "?"+(c4 - 1)+"????");
 }
 
 
